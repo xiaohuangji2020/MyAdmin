@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+a,
+b,
+body,
+button,
+dd,
+div,
+dl,
+em,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+input,
+label,
+li,
+nav,
+p,
+select,
+span,
+td,
+textarea,
+u,
+ul,
+main,
+section,
+article,
+header,
+footer,
+canvas,
+pre,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  text-size-adjust: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active,
+a:focus,
+a:hover,
+button,
+input,
+textarea {
+  outline: 0;
+}
+
+img {
+  border: none;
+}
+
+map area {
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+body,
+button,
+input,
+option,
+select,
+td,
+textarea {
+  font-family:
+    Avenir,
+    Helvetica,
+    Arial,
+    verdana,
+    "PingFang SC",
+    "HanHei SC",
+    STHeitiSC-Light,
+    "Microsoft Yahei",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input[type="button"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="submit"],
+input[type="tel"],
+input[type="text"],
+textarea {
+  appearance: none;
+}

@@ -5,6 +5,7 @@
   "compilerOptions": {
     "composite": true,
     "noEmit": true,
+    "module": "ESNext",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]

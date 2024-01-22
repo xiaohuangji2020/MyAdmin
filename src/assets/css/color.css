@@ -1,0 +1,32 @@
+:root {
+  --red: #e02613;
+  --fr-color-red: #dc1e32;
+  --fr-color-primary: #1b78f4;
+}
+.text-red {
+  color: var(--el-color-error);
+}
+
+.text-blue {
+  color: var(--el-color-primary)
+}
+
+.text-green {
+  color: var(--el-color-success)
+}
+
+.text-orange {
+  color: var(--el-color-warning)
+}
+
+.text-gray {
+  color: var(--el-color-info)
+}
+
+.text-primary {
+  color: var(--el-text-color-primary)
+}
+
+.text-white {
+  color: var(--el-color-white);
+}
