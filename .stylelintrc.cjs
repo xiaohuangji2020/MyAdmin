@@ -9,5 +9,6 @@ module.exports = {
   rules: {
     'selector-pseudo-class-no-unknown': [true, { 'ignorePseudoClasses': ['deep'] }],
     'selector-max-type': 3,
+    'selector-max-id': 3
   },
 }

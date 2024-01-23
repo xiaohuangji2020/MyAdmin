@@ -1,12 +1,12 @@
 declare module '*.vue' {
-	import type { DefineComponent } from 'vue';
-	const component: DefineComponent<{}, {}, any>;
-	export default component;
+  import type { DefineComponent } from 'vue';
+  const component: DefineComponent<{}, {}, any>;
+  export default component;
 }
 
 // 申明 对象
 declare type EmptyObjectType<T = any> = {
-	[key: string]: T;
+  [key: string]: T;
 };
 
 // 申明 数组

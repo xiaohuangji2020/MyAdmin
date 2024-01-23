@@ -8,13 +8,13 @@
 
 // export const blankLayoutRoutes: Array<RouteRecordRaw> = [
 export const blankLayoutRoutes = [
-	{
-		path: '/login',
-		name: 'login',
-		meta: {
-			title: 'login',
-		},
-		component: () => import(/* webpackChunkName: 'login' */ '@/views/login/LoginIndex.vue'),
-	},
+  {
+    path: '/login',
+    name: 'login',
+    meta: {
+      title: 'login',
+    },
+    component: () => import(/* webpackChunkName: 'login' */ '@/views/login/LoginIndex.vue'),
+  },
 ];
 
